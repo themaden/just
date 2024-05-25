@@ -1,0 +1,110 @@
+/* Genel forum konteyner stili */
+.forum-container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #ffffff;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     font-family: 'Arial', sans-serif;
+   }
+   
+   /* Başlık stili */
+   h1 {
+     text-align: center;
+     color: #333;
+     margin-bottom: 20px;
+     font-size: 2em;
+     font-weight: 600;
+   }
+   
+   /* Liste stili */
+   ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+   }
+   
+   /* Post item stili */
+   .post-item {
+     padding: 20px;
+     margin-bottom: 15px;
+     background-color: #f9f9f9;
+     border: 1px solid #e0e0e0;
+     border-radius: 8px;
+     transition: transform 0.2s, box-shadow 0.2s;
+   }
+   
+   .post-item:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+   }
+   
+   /* Kategori etiketi stili */
+   .category-badge {
+     display: inline-block;
+     margin-top: 10px;
+     padding: 5px 10px;
+     border-radius: 12px;
+     font-size: 0.9em;
+     color: white;
+   }
+   
+   .category-badge[data-category="Kategori 1"] {
+     background-color: #007bff;
+   }
+   
+   .category-badge[data-category="Kategori 2"] {
+     background-color: #28a745;
+   }
+   
+   /* Beğen ve beğenmeme bölümü stili */
+   .like-dislike {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 15px;
+   }
+   
+   /* Buton stili */
+   button {
+     padding: 8px 16px;
+     cursor: pointer;
+     border: none;
+     border-radius: 5px;
+     font-size: 0.9em;
+     transition: background-color 0.3s;
+   }
+   
+   button.like-button {
+     background-color: #007bff;
+     color: white;
+   }
+   
+   button.like-button:hover {
+     background-color: #0056b3;
+   }
+   
+   button.dislike-button {
+     background-color: #dc3545;
+     color: white;
+   }
+   
+   button.dislike-button:hover {
+     background-color: #c82333;
+   }
+   
+   /* Beğeni ve beğenmeme sayıları stili */
+   .like-dislike span {
+     font-size: 1em;
+     color: #333;
+   }
+   
+   /* Güçlü metin stili */
+   .post-item strong {
+     display: block;
+     margin-bottom: 5px;
+     font-size: 1.2em;
+     color: #222;
+   }
+   
